@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Dijinlong/longai-mcp",
+  "description": "MCP server for LONG AI: one key, 109 text/image/video models priced by sellers.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Dijinlong/longai-mcp",
+    "source": "github"
+  }
+}
