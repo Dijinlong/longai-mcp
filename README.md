@@ -49,6 +49,15 @@ Add to `claude_desktop_config.json`:
 }
 ```
 
+## Run with Docker
+
+```bash
+docker build -t longai-mcp .
+docker run -i --rm -e LONGAI_API_KEY=your-key longai-mcp
+```
+
+The container reads JSON-RPC from stdin and writes responses to stdout, so it plugs into any MCP client that supports a stdio command.
+
 ## Run with any stdio MCP client
 
 ```bash
